@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6r0049/v1
+canonical_location: https://kanripo.org/bkk/KR6r0049/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 惠果和尚行狀
+  identifiers:
+    alt_id:
+    - X88n1654
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X88/X88n1654.xml
+    old_id: X88n1654
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0049_000.yaml, hash: 'sha256:87c2533ae4b3de4c0845c856e900223c344a30df70b6638448b3450e56dcee15'}
+  - {seq: 1, filename: KR6r0049_001.yaml, hash: 'sha256:b2ef4397beee329e3ae53d133a4252c190c04a6006590858d723fb8567329c2d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6r0049_001.markers.yaml, hash: 'sha256:234dff0432fc6d89e103434b2df0708a75f274475ced69050a6bf04e87eb323c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0049_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 1752
+  label: 大唐青龍寺三朝供奉大德行狀
+  type: juan
+  level: 1
+hash: sha256:6e9a2ad5ea09343fc1ca172fe235bc65b0f85a32593dfe3b4ecec90bfee09668
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
