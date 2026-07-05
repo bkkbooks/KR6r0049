@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6r0049_000.yaml, hash: 'sha256:87c2533ae4b3de4c0845c856e900223c344a30df70b6638448b3450e56dcee15'}
-  - {seq: 1, filename: KR6r0049_001.yaml, hash: 'sha256:b2ef4397beee329e3ae53d133a4252c190c04a6006590858d723fb8567329c2d'}
+  - {seq: 1, filename: KR6r0049_001.yaml, hash: 'sha256:73003944d17a3fc8ef6abd44cd695b7652db6476446e3efc09c91173667827ea'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6r0049_001.markers.yaml, hash: 'sha256:234dff0432fc6d89e103434b2df0708a75f274475ced69050a6bf04e87eb323c'}
+  - {seq: 0, role: markers, filename: assets/KR6r0049_000.markers.yaml, hash: 'sha256:9b21edb3be6ef448c2ae5d95e5f943ddfff37a8b8f2f83597eff844f488bcbf1'}
+  - {seq: 1, role: markers, filename: assets/KR6r0049_001.markers.yaml, hash: 'sha256:5330343131bdccbac1b5ee06e5768deb136a81de308044b88b3c4f180424bc8c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 大唐青龍寺三朝供奉大德行狀
   type: juan
   level: 1
-hash: sha256:6e9a2ad5ea09343fc1ca172fe235bc65b0f85a32593dfe3b4ecec90bfee09668
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:ad0cd1d707244f353eabee7203790469714955cfdae98a30afe3826147d6bd8f
